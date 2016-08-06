@@ -1,0 +1,25 @@
+my tools to search for Gardens of Eden in Conway's Game of Life.
+
+see http://www.conwaylife.com/wiki/Garden_of_Eden
+
+collection/
+
+some GoEs in text format.
+
+counter/
+
+kind of library to explicitly count all parents.
+with good strategy (par_x/par_y) could be much faster than any SAT.
+
+optimizer/
+
+reducer trying to remove each cell and check if it's still GoE.
+
+sat/
+
+kind of library to use SAT solvers from c++ code, with wrappers around
+picosat and cryptominisat5
+
+*.pl
+
+constructors of SAT configurations
